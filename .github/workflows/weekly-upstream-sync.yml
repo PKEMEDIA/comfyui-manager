@@ -1,0 +1,46 @@
+name: Weekly Upstream Sync from Comfy-Org
+
+on:
+  schedule:
+    # Run every Sunday at 00:00 UTC
+    - cron: '0 0 * * 0'
+  workflow_dispatch:  # Allow manual trigger from Actions tab
+
+jobs:
+  sync-upstream:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+    - name: Checkout main
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        fetch-depth: 0
+
+    - name: Configure Git
+      run: |
+        git config user.name "PKEMEDIA Bot"
+        git config user.email "coviceaperry@gmail.com"
+
+    - name: Add upstream remote
+      run: |
+        git remote add upstream https://github.com/Comfy-Org/ComfyUI-Manager.git || true
+        git fetch upstream
+
+    - name: Merge upstream changes
+      run: |
+        echo "Merging latest from Comfy-Org/ComfyUI-Manager..."
+        if git merge upstream/main --no-edit; then
+          echo "Merge successful - pushing to origin/main"
+          git push origin main
+        else
+          echo "::warning:: Merge conflicts detected. Manual resolution required."
+          echo "Please check the Actions log and resolve conflicts locally."
+          exit 1
+        fi
+
+    - name: Summary
+      run: |
+        echo "Weekly upstream sync completed successfully."
+        echo "Your PKEMEDIA customizations (branding, channels, config, SECURITY.md) remain intact on top of upstream."

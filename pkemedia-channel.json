@@ -1,13 +1,18 @@
 {
   "name": "PKEMEDIA Media Production Channel",
-  "description": "Curated nodes for professional AI media production, character consistency, video workflows, anatomy tools, and high-quality adult content creation by Pretty Kitty Entertainment.",
+  "description": "Curated, production-tested nodes for professional AI media creation at Pretty Kitty Entertainment. Focus on character consistency, high-quality video, anatomy tools, face restoration, IPAdapter workflows, and reliable batch rendering. Optimized for adult content pipelines and cinematic output.",
   "nodes": [
-    {"name": "ComfyUI-Impact-Pack", "url": "https://github.com/ltdrdata/ComfyUI-Impact-Pack"},
-    {"name": "ComfyUI-IPAdapter_plus", "url": "https://github.com/cubiq/ComfyUI-IPAdapter_plus"},
-    {"name": "ComfyUI-AnimateDiff-Evolved", "url": "https://github.com/Kosinkadink/ComfyUI-AnimateDiff-Evolved"},
-    {"name": "ComfyUI-VideoHelperSuite", "url": "https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite"},
-    {"name": "ComfyUI-Manager", "url": "https://github.com/PKEMEDIA/comfyui-manager"},
-    {"name": "ComfyUI-Custom-Scripts", "url": "https://github.com/pythongosssss/ComfyUI-Custom-Scripts"}
+    { "name": "ComfyUI-Impact-Pack", "url": "https://github.com/ltdrdata/ComfyUI-Impact-Pack", "note": "Core impact nodes, face detailer, segmentation" },
+    { "name": "ComfyUI-IPAdapter_plus", "url": "https://github.com/cubiq/ComfyUI-IPAdapter_plus", "note": "IPAdapter for character/reference consistency" },
+    { "name": "ComfyUI-AnimateDiff-Evolved", "url": "https://github.com/Kosinkadink/ComfyUI-AnimateDiff-Evolved", "note": "High-quality video/animation generation" },
+    { "name": "ComfyUI-VideoHelperSuite", "url": "https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite", "note": "Video loading, processing, batch tools" },
+    { "name": "ComfyUI-Reactor", "url": "https://github.com/Gourieff/ComfyUI-Reactor", "note": "Face swap / restoration for consistency" },
+    { "name": "ComfyUI-FaceDetailer", "url": "https://github.com/ltdrdata/ComfyUI-Impact-Pack", "note": "Advanced face detailing and restoration" },
+    { "name": "ComfyUI-Advanced-ControlNet", "url": "https://github.com/Kosinkadink/ComfyUI-Advanced-ControlNet", "note": "Precise pose, depth, canny control for media" },
+    { "name": "ComfyUI-Frame-Interpolation", "url": "https://github.com/Fannovel16/ComfyUI-Frame-Interpolation", "note": "Smooth video frame interpolation" },
+    { "name": "ComfyUI-Custom-Scripts", "url": "https://github.com/pythongosssss/ComfyUI-Custom-Scripts", "note": "Quality-of-life scripts and utilities" },
+    { "name": "ComfyUI-Manager", "url": "https://github.com/PKEMEDIA/comfyui-manager", "note": "This fork - always use latest from PKEMEDIA" }
   ],
-  "note": "Customize this list with your preferred media nodes, LoRAs, and production tools. Add more as needed for your workflows."
+  "recommended_for": "Pretty Kitty Media production: character LoRAs, video campaigns, cinematic adult content, batch consistency pipelines.",
+  "customization_note": "Edit this file or create additional channels for your private nodes, specific LoRA packs, or client projects. Add/remove as your workflow evolves. Test new nodes in a separate ComfyUI instance first."
 }
