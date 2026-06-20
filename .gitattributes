@@ -1,0 +1,23 @@
+# PKEMEDIA ComfyUI-Manager Studio Edition
+# Smart merge strategies to protect branding and enable clean upstream syncs
+
+# Protect our custom branding, security policy, config, and installer
+README.md                          merge=ours
+SECURITY.md                        merge=ours
+pkemedia-studio-config.ini         merge=ours
+scripts/install-pkemedia-studio.bat merge=ours
+
+# Smart union + custom driver for channel files (best of both worlds)
+channels.list.template             merge=union
+pkemedia-channel.json              merge=pkemedia-channel
+
+# Normal behavior for everything else
+*.py                               merge=text
+*.js                               merge=text
+*.json                             merge=text
+*.yml                              merge=text
+*.yaml                             merge=text
+*.md                               merge=patience
+
+# Keep line endings consistent
+*                                  text=auto eol=lf

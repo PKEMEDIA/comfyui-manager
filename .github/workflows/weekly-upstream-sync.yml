@@ -4,7 +4,7 @@ on:
   schedule:
     # Run every Sunday at 00:00 UTC
     - cron: '0 0 * * 0'
-  workflow_dispatch:  # Allow manual trigger from Actions tab
+  workflow_dispatch:
 
 jobs:
   sync-upstream:
@@ -23,6 +23,13 @@ jobs:
         git config user.name "PKEMEDIA Bot"
         git config user.email "coviceaperry@gmail.com"
 
+    - name: Configure custom merge drivers
+      run: |
+        # Register the PKEMEDIA channel JSON merge driver
+        git config merge.pkemedia-channel.name "PKEMEDIA intelligent channel merger"
+        git config merge.pkemedia-channel.driver "./scripts/merge-pkemedia-channel.sh %O %A %B"
+        chmod +x ./scripts/merge-pkemedia-channel.sh || true
+
     - name: Add upstream remote
       run: |
         git remote add upstream https://github.com/Comfy-Org/ComfyUI-Manager.git || true
@@ -30,17 +37,18 @@ jobs:
 
     - name: Merge upstream changes
       run: |
-        echo "Merging latest from Comfy-Org/ComfyUI-Manager..."
+        echo "Merging latest from Comfy-Org/ComfyUI-Manager with smart strategies..."
         if git merge upstream/main --no-edit; then
           echo "Merge successful - pushing to origin/main"
           git push origin main
         else
-          echo "::warning:: Merge conflicts detected. Manual resolution required."
-          echo "Please check the Actions log and resolve conflicts locally."
+          echo "::warning:: Merge conflicts detected after smart strategies. Manual resolution required."
+          echo "Please check the Actions log and resolve remaining conflicts locally."
           exit 1
         fi
 
     - name: Summary
       run: |
-        echo "Weekly upstream sync completed successfully."
-        echo "Your PKEMEDIA customizations (branding, channels, config, SECURITY.md) remain intact on top of upstream."
+        echo "Weekly upstream sync completed."
+        echo "Custom merge strategies (ours/union/pkemedia-channel) were applied automatically."
+        echo "Your PKEMEDIA branding, SECURITY.md, config, and channel nodes are protected."
