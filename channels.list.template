@@ -1,4 +1,5 @@
-default::https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main
+pkemedia-media::https://raw.githubusercontent.com/PKEMEDIA/comfyui-manager/main/pkemedia-channel.json
+default::https://raw.githubusercontent.com/PKEMEDIA/comfyui-manager/main
 recent::https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/node_db/new
 legacy::https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/node_db/legacy
 forked::https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/node_db/forked

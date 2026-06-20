@@ -1,0 +1,13 @@
+{
+  "name": "PKEMEDIA Media Production Channel",
+  "description": "Curated nodes for professional AI media production, character consistency, video workflows, anatomy tools, and high-quality adult content creation by Pretty Kitty Entertainment.",
+  "nodes": [
+    {"name": "ComfyUI-Impact-Pack", "url": "https://github.com/ltdrdata/ComfyUI-Impact-Pack"},
+    {"name": "ComfyUI-IPAdapter_plus", "url": "https://github.com/cubiq/ComfyUI-IPAdapter_plus"},
+    {"name": "ComfyUI-AnimateDiff-Evolved", "url": "https://github.com/Kosinkadink/ComfyUI-AnimateDiff-Evolved"},
+    {"name": "ComfyUI-VideoHelperSuite", "url": "https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite"},
+    {"name": "ComfyUI-Manager", "url": "https://github.com/PKEMEDIA/comfyui-manager"},
+    {"name": "ComfyUI-Custom-Scripts", "url": "https://github.com/pythongosssss/ComfyUI-Custom-Scripts"}
+  ],
+  "note": "Customize this list with your preferred media nodes, LoRAs, and production tools. Add more as needed for your workflows."
+}
