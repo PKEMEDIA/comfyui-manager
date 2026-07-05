@@ -398,7 +398,6 @@
             "PD_MaskRemoveSmallObjects",
             "PD_Maskfenkai",
             "PD_ModelLoraLoader",
-            "PD_RemoveBlackBackground",
             "PD_RemoveColorWords",
             "PD_RemoveWhiteBorder",
             "PD_RenameV2",
@@ -435,6 +434,9 @@
             "PDimage_corp_v2",
             "PDimage_dual_batch_by_list",
             "PDimage_dual_batch_v1",
+            "PDtools_Filter_GodenPNG_v1",
+            "PDtools_Filter_WPNG_v1",
+            "PDtools_Filter_WPNG_v2",
             "mask_edge_selector"
         ],
         {
@@ -845,6 +847,7 @@
             "TS_Animation_Preview",
             "TS_AudioLoader",
             "TS_AudioPreview",
+            "TS_AudioVisualizer",
             "TS_BGRM_BiRefNet",
             "TS_BatchPromptLoader",
             "TS_CPULoraMerger",
@@ -1272,7 +1275,9 @@
             "MultilineTextSplitter",
             "RaftOpticalFlowNode",
             "StringProcessor",
+            "TextTemplateCombiner",
             "TwoImageConcatenator",
+            "VideoFilterBatch",
             "VideoTransitionBatchMerger"
         ],
         {
@@ -1657,14 +1662,6 @@
         ],
         {}
     ],
-    "https://github.com/CraftopiaStudio/ComfyUI-WorkflowOrganizer": [
-        [
-            "WorkflowOrganizerInfo"
-        ],
-        {
-            "title_aux": "ComfyUI-WorkflowOrganizer [WIP]"
-        }
-    ],
     "https://github.com/CypherNaught-0x/ComfyUI-StarVector": [
         [
             "LoadSVG",
@@ -1838,6 +1835,7 @@
             "Donut Sharpener",
             "Donut Sharpener (from reference)",
             "Donut Simple Calibration",
+            "Donut Spectral Sharpener",
             "DonutApplyLoRAStack",
             "DonutAutoGamma",
             "DonutAutoWhiteBalance",
@@ -1845,16 +1843,20 @@
             "DonutCacheDebug",
             "DonutCheckpointSave",
             "DonutClipEncode",
+            "DonutDetailerUnified",
             "DonutDetailerZIT",
             "DonutFaceDetailer",
+            "DonutFiller",
             "DonutFillerClip",
             "DonutFillerModel",
             "DonutGammaCorrection",
             "DonutHiRaLoAm",
             "DonutHistogramStretch",
             "DonutHotReload",
+            "DonutImageAdjust",
             "DonutImageReporter",
             "DonutLoRACivitAIInfo",
+            "DonutLoRACivitAILookup",
             "DonutLoRAHashLookup",
             "DonutLoRALibrary",
             "DonutLoRAStack",
@@ -1869,10 +1871,13 @@
             "DonutSDXLTeaCacheStats",
             "DonutSampler",
             "DonutSampler (Advanced)",
+            "DonutSave",
             "DonutTiledUpscale",
             "DonutUniversalDetailer",
             "DonutWidenMergeCLIP",
             "DonutWidenMergeUNet",
+            "DonutZitConditioningRebalance",
+            "DonutZitLayerBlendEncode",
             "LoadLBW //Inspire",
             "LoraBlockInfo //Inspire",
             "LoraLoaderBlockWeight //Inspire",
@@ -2916,16 +2921,6 @@
         ],
         {
             "title_aux": "ComfyUI-Randomselector"
-        }
-    ],
-    "https://github.com/Kayarte/Time-Series-Nodes-for-ComfyUI": [
-        [
-            "DomainTimeSeriesPrep",
-            "TimeSeriesLoader",
-            "TimeSeriesPredictor"
-        ],
-        {
-            "title_aux": "Time Series Nodes for ComfyUI [Experimental]"
         }
     ],
     "https://github.com/KihongK/comfyui-roysnodes": [
@@ -7417,6 +7412,13 @@
     "https://github.com/charlierz/comfyui-charlierz": [
         [
             "BackgroundColor",
+            "CharlierzAnimaLLLiteDetailerHook",
+            "CharlierzApplyLoraStack",
+            "CharlierzEditGenPipe",
+            "CharlierzMakeGenPipe",
+            "CharlierzPowerLoraStack",
+            "CharlierzUnpackGenPipe",
+            "CharlierzUnpackGenPipeForLanPaint",
             "EstimateTextTokens",
             "LlamaCppChat",
             "LlamaCppVisionChat",
@@ -7625,6 +7627,7 @@
             "ByteDanceImageNode",
             "ByteDanceImageReferenceNode",
             "ByteDanceImageToVideoNode",
+            "ByteDanceSeedAudio",
             "ByteDanceSeedNode",
             "ByteDanceSeedreamNode",
             "ByteDanceSeedreamNodeV2",
@@ -7673,6 +7676,7 @@
             "ConditioningAverage",
             "ConditioningCombine",
             "ConditioningConcat",
+            "ConditioningMultiply",
             "ConditioningSetArea",
             "ConditioningSetAreaPercentage",
             "ConditioningSetAreaPercentageVideo",
@@ -7776,6 +7780,7 @@
             "GeminiNanoBanana2V2",
             "GeminiNode",
             "GeminiNodeV2",
+            "GeminiVideoOmni",
             "GenerateTracks",
             "GetICLoRAParameters",
             "GetImageSize",
@@ -7807,8 +7812,6 @@
             "HyperTile",
             "HypernetworkLoader",
             "Ideogram4Scheduler",
-            "IdeogramV1",
-            "IdeogramV2",
             "IdeogramV3",
             "IdeogramV4",
             "ImageAddNoise",
@@ -8194,14 +8197,6 @@
             "SplitImageWithAlpha",
             "SplitSigmas",
             "SplitSigmasDenoise",
-            "StabilityAudioInpaint",
-            "StabilityAudioToAudio",
-            "StabilityStableImageSD_3_5Node",
-            "StabilityStableImageUltraNode",
-            "StabilityTextToAudio",
-            "StabilityUpscaleConservativeNode",
-            "StabilityUpscaleCreativeNode",
-            "StabilityUpscaleFastNode",
             "StableCascade_EmptyLatentImage",
             "StableCascade_StageB_Conditioning",
             "StableCascade_StageC_VAEEncode",
@@ -9166,6 +9161,7 @@
         [
             "DeepSeekChat",
             "DoubaoChat",
+            "ImageTrimAndCenter",
             "InpaintConcat",
             "InpaintCut",
             "IsEmptyString",
@@ -12650,6 +12646,7 @@
             "ImageGridNode",
             "ImageSize",
             "IsNull",
+            "LazySelectAny",
             "ListCount",
             "ListGet",
             "ListSet",
@@ -12658,15 +12655,21 @@
             "LoadCheckpointInfo",
             "LoadCustomVae",
             "LoadPrompt",
+            "LoadPromptAdvanced",
+            "LoadPromptChar",
             "LoraStack",
             "MergeLoraStacks",
+            "ModelInfo",
             "PipeBase",
             "PipeCustom",
+            "PipeDebug",
             "PromptChainer",
+            "RandomSeed",
             "ReplaceTextParameters",
             "RerouteBase",
             "SaveMultipleImages",
             "SavePrompt",
+            "SelectAnyInput",
             "SwitchAny",
             "SwitchNode",
             "TestNode"
@@ -13462,11 +13465,13 @@
             "Any Passer [Eclipse]",
             "Audio Passer [Eclipse]",
             "Basic Pipe Passer [Eclipse]",
+            "Basic Pipe [Eclipse]",
             "Batch Interleave [Eclipse]",
             "Batch Slice [Eclipse]",
             "Boolean Passer [Eclipse]",
             "Boolean [Eclipse]",
             "CLIP Loader [Eclipse]",
+            "CLIP Text Encode (Advanced) [Eclipse]",
             "CLIP Text Encode [Eclipse]",
             "CLIPLoaderGGUF",
             "Checkpoint Loader Small (Pipe) [Eclipse]",
@@ -13486,9 +13491,12 @@
             "Convert To Batch [Eclipse]",
             "Convert to List [Eclipse]",
             "Custom Size [Eclipse]",
+            "Detailer (SEGS/pipe) [Eclipse]",
             "Detailer Pipe Passer [Eclipse]",
             "Detection to Bboxes [Eclipse]",
             "DualCLIPLoaderGGUF",
+            "Eclipse KSampler (Kargim) [Eclipse]",
+            "Eclipse KSampler (Pipe) [Eclipse]",
             "Fast Bypasser [Eclipse]",
             "Fast Groups Bypasser [Eclipse]",
             "Fast Groups Muter [Eclipse]",
@@ -13498,6 +13506,7 @@
             "Float Passer [Eclipse]",
             "Float [Eclipse]",
             "Folder Path [Eclipse]",
+            "From Basic Pipe [Eclipse]",
             "Generation Data (Gated) [Eclipse]",
             "Generation Data [Eclipse]",
             "Get First Image [Eclipse]",
@@ -13548,6 +13557,7 @@
             "Lora Stack apply [Eclipse]",
             "Lora Stack to String [Eclipse]",
             "Mask Passer [Eclipse]",
+            "Mask to SEGS [Eclipse]",
             "Merge Strings [Eclipse]",
             "Mode Bridge Get [Eclipse]",
             "Mode Bridge Set [Eclipse]",
@@ -13648,6 +13658,7 @@
             "Tile Assembly [Eclipse]",
             "Tile Decode & Assembly [Eclipse]",
             "Tile Split [Eclipse]",
+            "To Basic Pipe [Eclipse]",
             "Trim to Shortest [Eclipse]",
             "TripleCLIPLoaderGGUF",
             "UnetLoaderGGUF",
@@ -15885,17 +15896,11 @@
     ],
     "https://github.com/xqqe/honey_nodes": [
         [
-            "ExtractLoRAName",
-            "Honey Lora Loader",
             "HoneyBatchAspectRatio",
+            "HoneyFilmStockSelector",
+            "HoneyLoraLoader",
             "HoneyLoraStackTags",
-            "HoneyTextConcat",
-            "Honey_LoRAStackRandom",
-            "Honey_LoRATags",
-            "LoraLoaderx",
-            "SmLoraLoader",
-            "Small Lora Loader",
-            "TagAdder"
+            "HoneySpectralFilmSelector"
         ],
         {
             "title_aux": "honey_nodes [WIP]"
