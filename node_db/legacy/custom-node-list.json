@@ -1,6 +1,36 @@
 {
     "custom_nodes": [
         {
+            "author": "zhangrui",
+            "title": "ComfyUI-QuickUseTools [REMOVED]",
+            "reference": "https://github.com/cingee2016/ComfyUI-QuickUseTools",
+            "files": [
+                "https://github.com/cingee2016/ComfyUI-QuickUseTools"
+            ],
+            "install_type": "git-clone",
+            "description": "A collection of quick-use custom nodes for ComfyUI - image processing and workflow tools"
+        },
+        {
+            "author": "Tr1dae",
+            "title": "ComfyUI-EasyFilePaths [REMOVED]",
+            "reference": "https://github.com/Tr1dae/ComfyUI-EasyFilePaths",
+            "files": [
+                "https://github.com/Tr1dae/ComfyUI-EasyFilePaths"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom ComfyUI nodes that automatically populate dropdowns based on your folder structure and user configuration, making it easy to generate consistent file names."
+        },
+        {
+            "author": "zhangyi196",
+            "title": "Comfyui_ToAPIs_nano_banana [REMOVED]",
+            "reference": "https://github.com/zhangyi196/Comfyui_ToAPIs_nano_banana",
+            "files": [
+                "https://github.com/zhangyi196/Comfyui_ToAPIs_nano_banana"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom ComfyUI node for calling ToAPIs image generation interface with support for text-to-image and image-to-image operations. (Description by CC)"
+        },
+        {
             "author": "GreenLandisaLie",
             "title": "ComfyUI-Silver_Pack [REMOVED]",
             "reference": "https://github.com/GreenLandisaLie/ComfyUI-Silver_Pack",
