@@ -1,6 +1,26 @@
 {
     "custom_nodes": [
         {
+            "author": "yitao2020",
+            "title": "ComfyUI-GPT-Image-2 [NAME CONFLICT]",
+            "reference": "https://github.com/yitao2020/ComfyUI-GPT-Image-2",
+            "files": [
+                "https://github.com/yitao2020/ComfyUI-GPT-Image-2"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI plugin for OpenAI's GPT Image 2 model supporting text-to-image, image editing, multi-image fusion, mask inpainting with 8 presets and custom sizes up to 4K. (Description by CC)"
+        },
+        {
+            "author": "aadebuger",
+            "title": "ComfyUI-Dramabox [NAME CONFLICT]",
+            "reference": "https://github.com/aadebuger/ComfyUI-Dramabox",
+            "files": [
+                "https://github.com/aadebuger/ComfyUI-Dramabox"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom nodes for ResembleAI Dramabox (LTX-2.3 expressive TTS with voice cloning)"
+        },
+        {
             "author": "7akoro",
             "title": "comfyui-prompt-enhancer [NAME CONFLICT]",
             "reference": "https://github.com/7akoro/comfyui-prompt-enhancer",
@@ -2821,16 +2841,6 @@
             ],
             "install_type": "git-clone",
             "description": "MV-Adapter nodes for ComfyUI - Multi-view image generation\nNOTE: The files in the repo are not organized."
-        },
-        {
-            "author": "rafstahelin",
-            "title": "ComfyUI_KieNanoBananaPro",
-            "reference": "https://github.com/rafstahelin/ComfyUI_KieNanoBananaPro",
-            "files": [
-                "https://github.com/rafstahelin/ComfyUI_KieNanoBananaPro"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI nodes for processing and filtering using KieNanoBananaPro algorithm. (Description by CC)"
         },
         {
             "author": "jinchanz",

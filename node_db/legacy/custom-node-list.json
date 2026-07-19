@@ -1,6 +1,117 @@
 {
     "custom_nodes": [
         {
+            "author": "nujgnem",
+            "title": "comfyui-dream-machine [REMOVED]",
+            "reference": "https://github.com/nujgnem/ComfyUI-Dream-Machine",
+            "files": [
+                "https://github.com/nujgnem/ComfyUI-Dream-Machine"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI-native Deforum-inspired feedback animation with global anchoring"
+        },
+        {
+            "author": "rafstahelin",
+            "title": "ComfyUI_KieNanoBananaPro [REMOVED]",
+            "reference": "https://github.com/rafstahelin/ComfyUI_KieNanoBananaPro",
+            "files": [
+                "https://github.com/rafstahelin/ComfyUI_KieNanoBananaPro"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI nodes for processing and filtering using KieNanoBananaPro algorithm. (Description by CC)"
+        },
+        {
+            "author": "TdogCreations",
+            "title": "ComfyUI-NAID-Grid-Position [REMOVED]",
+            "reference": "https://github.com/TdogCreations/ComfyUI-NAID-Grid-Position",
+            "files": [
+                "https://github.com/TdogCreations/ComfyUI-NAID-Grid-Position"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI node that outputs X/Y floats (0.1..0.9) using a clickable 5x5 grid UI, with an optional Random toggle that randomizes the grid selection each queue."
+        },
+        {
+            "author": "rafstahelin",
+            "title": "pm-layerforge [REMOVED]",
+            "reference": "https://github.com/rafstahelin/pm-layerforge",
+            "files": [
+                "https://github.com/rafstahelin/pm-layerforge"
+            ],
+            "install_type": "git-clone",
+            "description": "Photoshop-like layered canvas editor for ComfyUI. Multi-layer compositing, masking, blend modes, outpainting, with BiRefNet background/person removal. Forked from Azornes/Comfyui-LayerForge."
+        },
+        {
+            "author": "fni8",
+            "title": "ComfyUI-fni8 (int8 dp4a / Volta) [REMOVED]",
+            "reference": "https://github.com/jajmangold/ComfyUI-fni8",
+            "files": [
+                "https://github.com/jajmangold/ComfyUI-fni8"
+            ],
+            "install_type": "git-clone",
+            "description": "int8 dp4a (sm_70/Volta) acceleration for diffusion DiTs in ComfyUI, over the fni8 kernels"
+        },
+        {
+            "author": "feice-huang",
+            "title": "joyai_image_comfyui_gguf [REMOVED]",
+            "reference": "https://github.com/feice-huang/joyai_image_comfyui_gguf",
+            "files": [
+                "https://github.com/feice-huang/joyai_image_comfyui_gguf"
+            ],
+            "install_type": "git-clone",
+            "description": "Unofficial GGUF companion package for JoyAI-Image-Edit, adding GGUF loader nodes as drop-in replacements for bf16 transformer and text encoder loaders."
+        },
+        {
+            "author": "rzgarespo",
+            "title": "ComfyUI-diffusiondb [REMOVED]",
+            "reference": "https://github.com/rzgarespo/ComfyUI-diffusiondb",
+            "files": [
+                "https://github.com/rzgarespo/ComfyUI-diffusiondb"
+            ],
+            "install_type": "git-clone",
+            "description": "This code gives you the quick access to 14 million text-to-image prompts from the DiffusionDB dataset."
+        },
+        {
+            "author": "Rzgar Espo",
+            "title": "ComfyUI Qwen Image Size Picker [REMOVED]",
+            "id": "QwenImg-latent",
+            "reference": "https://github.com/rzgarespo/ComfyUI-qwen-image-size-picker",
+            "files": [
+                "https://github.com/rzgarespo/ComfyUI-qwen-image-size-picker"
+            ],
+            "install_type": "git-clone",
+            "description": "An empty latent size picker with support for Qwen Image, SDXL, and Flux models."
+        },
+        {
+            "author": "Ian2073",
+            "title": "ComfyUI-MyLLMNode [REMOVED]",
+            "reference": "https://github.com/Ian2073/ComfyUI-MyLLMnode",
+            "files": [
+                "https://github.com/Ian2073/ComfyUI-MyLLMnode"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom ComfyUI node for running LLMs via HuggingFace pipeline. Supports both local paths and HuggingFace model names."
+        },
+        {
+            "author": "hvppycoding",
+            "title": "RandomSamplerSchedulerSteps for ComfyUI [REMOVED]",
+            "reference": "https://github.com/hvppycoding/comfyui-random-sampler-scheduler-steps",
+            "files": [
+                "https://github.com/hvppycoding/comfyui-random-sampler-scheduler-steps"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI custom node that randomly selects a (Sampler, Scheduler, Steps) combination from user-defined presets."
+        },
+        {
+            "author": "hvppycoding",
+            "title": "json prompt renderer [REMOVED]",
+            "reference": "https://github.com/hvppycoding/comfyui-json-prompt-renderer",
+            "files": [
+                "https://github.com/hvppycoding/comfyui-json-prompt-renderer"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: Extract JSON, 'Prompt: Render Template from JSON'"
+        },
+        {
             "author": "zhangrui",
             "title": "ComfyUI-QuickUseTools [REMOVED]",
             "reference": "https://github.com/cingee2016/ComfyUI-QuickUseTools",
