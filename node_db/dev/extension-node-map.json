@@ -3439,6 +3439,9 @@
             "MpiBlocker",
             "MpiBoolean",
             "MpiBooleanCompare",
+            "MpiBox",
+            "MpiBoxCrop",
+            "MpiBoxMask",
             "MpiClearVram",
             "MpiCompare",
             "MpiConditioningReroute",
@@ -3449,6 +3452,7 @@
             "MpiExecLogger",
             "MpiExpoFloat",
             "MpiFloat",
+            "MpiFromBox",
             "MpiFromCheckpoint",
             "MpiGetImageAtIndex",
             "MpiGridDimensions",
@@ -7980,6 +7984,8 @@
             "LoadMoGeModel",
             "LoadTrainingDataset",
             "LoadVideo",
+            "LoadVideoDataSetFromFolder",
+            "LoadVideoTextDataSetFromFolder",
             "LoraLoader",
             "LoraLoaderBypass",
             "LoraLoaderBypassModelOnly",
@@ -8235,6 +8241,8 @@
             "SetLatentNoiseMask",
             "SetUnionControlNetType",
             "ShuffleImageTextDataset",
+            "ShuffleVideoDataset",
+            "ShuffleVideoTextDataset",
             "SkipLayerGuidanceDiT",
             "SkipLayerGuidanceDiTSimple",
             "SkipLayerGuidanceSD3",
@@ -8392,7 +8400,10 @@
             "Veo3VideoGenerationNode",
             "VeoVideoGenerationNode",
             "Video Slice",
+            "VideoFrameSample",
             "VideoLinearCFGGuidance",
+            "VideoRandomTemporalCrop",
+            "VideoTemporalCrop",
             "VideoTriangleCFGGuidance",
             "Vidu2ImageToVideoNode",
             "Vidu2ReferenceVideoNode",
@@ -8443,6 +8454,7 @@
             "WanTextToImageApi",
             "WanTextToVideoApi",
             "WanTrackToVideo",
+            "WanUni3CControlnetApply",
             "WanVaceToVideo",
             "WavespeedFlashVSRNode",
             "WavespeedImageUpscaleNode",
@@ -9398,6 +9410,10 @@
             "FBTextEncodeQwenImageEditPlus",
             "LibberApply",
             "LibberManager",
+            "LoraEntryDefine",
+            "LoraStackApply",
+            "LoraStackCollect",
+            "LoraStackView",
             "MaskProcessor",
             "MultiLoraLoader",
             "NodeInputSelect",
@@ -9405,8 +9421,10 @@
             "PromptComposer",
             "QwenAspectRatio",
             "SAMPreprocessNHWC",
+            "SaveImageWebsocket",
             "SceneCreate",
             "SceneInput",
+            "SceneLoraStackSave",
             "SceneMaskDefinition",
             "SceneOutput",
             "ScenePromptManager",
@@ -9425,8 +9443,13 @@
             "StoryVideoBatch",
             "StoryView",
             "SubdirLister",
+            "SubjectCompositor",
+            "SubjectLayerDefine",
             "TailEnhancePro",
-            "TailSplit"
+            "TailSplit",
+            "WanPresetDefine",
+            "WanPresetSelect",
+            "WanVidLoraStack"
         ],
         {
             "title_aux": "fb-tools"
@@ -12157,7 +12180,11 @@
     ],
     "https://github.com/maoper11/comfyui_inteliweb_nodes": [
         [
+            "InteliwebInputSwitch",
+            "InteliwebPromptList",
             "InteliwebPurgeVRAM",
+            "InteliwebReplaceTextMulti",
+            "InteliwebStringIndexSelector",
             "InteliwebSystemCheck"
         ],
         {
@@ -12688,11 +12715,13 @@
             "ComplexPrompt",
             "ConvertLoraStackToString",
             "ConvertLoraStringToStack",
+            "CreateEmptyImageLatent",
             "CreateImageLatent",
             "DictGet",
             "DictSet",
             "DictSetMulti",
             "DictSetMultipleStrings",
+            "DoublePrompt",
             "DownloadModelsList",
             "DynamicComboNode",
             "DynamicTwinNode",
@@ -12704,6 +12733,7 @@
             "GlobalGet",
             "GlobalSet",
             "ImageGridNode",
+            "ImageResolution",
             "ImageSize",
             "IsEmpty",
             "IsNull",
@@ -12718,6 +12748,7 @@
             "LoadCustomVae",
             "LoadPromptBase",
             "LoraStack",
+            "MaskOverlay",
             "MergeLoraStacks",
             "ModelInfo",
             "ModelInfoSimple",
@@ -12731,6 +12762,7 @@
             "RandomSeed",
             "ReplaceTextParameters",
             "RerouteBase",
+            "ResizeImageMask",
             "SaveMultipleImages",
             "SavePrompt",
             "SelectAnyInput",
@@ -15927,11 +15959,22 @@
             "CropImageToAlphaBounds",
             "CropImageToMaskBounds",
             "CropTransparentImageToContent",
+            "EnsureMaskBatch",
+            "HoneyBannerDisplay",
             "HoneyBatchAspectRatio",
+            "HoneyEnsureDirectory",
+            "HoneyFilenameContainsExists",
             "HoneyFilmStockSelector",
+            "HoneyFilterImageListByBoolean",
+            "HoneyGetListRange",
+            "HoneyLoadImageListFromDirectory",
             "HoneyLoraLoader",
+            "HoneyLoraPathFromString",
             "HoneyLoraStackTags",
+            "HoneyShowBanner",
             "HoneySpectralFilmSelector",
+            "HoneyTextBanner",
+            "PadToSquareCornerColor",
             "SEGSToMaskedImageList"
         ],
         {
@@ -16229,6 +16272,14 @@
         ],
         {
             "title_aux": "ComfyUI-ACE-Step [WIP]"
+        }
+    ],
+    "https://github.com/yitao2020/ComfyUI-GPT-Image-2": [
+        [
+            "GPTImage2"
+        ],
+        {
+            "title_aux": "ComfyUI-GPT-Image-2 [NAME CONFLICT]"
         }
     ],
     "https://github.com/yuvraj108c/ComfyUI-HYPIR": [

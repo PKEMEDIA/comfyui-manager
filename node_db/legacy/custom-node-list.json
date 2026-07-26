@@ -1,6 +1,27 @@
 {
     "custom_nodes": [
         {
+            "author": "FortunaCournot",
+            "title": "Stereoscopic [REMOVED]",
+            "id": "stereoscopic",
+            "reference": "https://github.com/FortunaCournot/comfyui_stereoscopic",
+            "files": [
+                "https://github.com/FortunaCournot/comfyui_stereoscopic"
+            ],
+            "install_type": "git-clone",
+            "description": "Contains ImageSBSConverter node to convert an image into a side-by-side image."
+        },
+        {
+            "author": "bombdefuser-124",
+            "title": "Newbie-Teacache-ComfyUI [REMOVED]",
+            "reference": "https://github.com/bombdefuser-124/Newbie-Teacache-ComfyUI",
+            "files": [
+                "https://github.com/bombdefuser-124/Newbie-Teacache-ComfyUI"
+            ],
+            "install_type": "git-clone",
+            "description": "TeaCache optimization nodes for ComfyUI's NewBie implementation, featuring patched loader and coefficient calculator for faster inference with configurable quality. (Description by CC)"
+        },
+        {
             "author": "nujgnem",
             "title": "comfyui-dream-machine [REMOVED]",
             "reference": "https://github.com/nujgnem/ComfyUI-Dream-Machine",

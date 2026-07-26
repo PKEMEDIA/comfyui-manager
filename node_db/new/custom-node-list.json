@@ -1,6 +1,169 @@
 {
     "custom_nodes": [
         {
+            "author": "designloves2",
+            "title": "ComfyUI-TJ_NODE",
+            "id": "ComfyUI-TJ_NODE",
+            "reference": "https://github.com/designloves2/ComfyUI-TJ_NODE",
+            "files": [
+                "https://github.com/designloves2/ComfyUI-TJ_NODE"
+            ],
+            "install_type": "git-clone",
+            "description": "Fixes image batch mixing and missing filenames when using large multi-channel KSampler workflows."
+        },
+        {
+            "author": "rookiestar28",
+            "title": "ComfyUI-SCAIL-Pose2",
+            "id": "comfyui-scail-pose2",
+            "reference": "https://github.com/rookiestar28/ComfyUI-SCAIL-Pose2",
+            "files": [
+                "https://github.com/rookiestar28/ComfyUI-SCAIL-Pose2"
+            ],
+            "install_type": "git-clone",
+            "description": "SCAIL and SCAIL-2 pose/mask preprocessing for ComfyUI, including DWPose-compatible pose data, NLF pose renders, condition metadata, and WanVideoWrapper adapter payloads."
+        },
+        {
+            "author": "JWLHS",
+            "title": "TINT4 — INT4 Weight-Only Quantization via torchao",
+            "id": "tint4_xpu",
+            "reference": "https://github.com/JWLHS/ComfyUI-TINT4",
+            "files": [
+                "https://github.com/JWLHS/ComfyUI-TINT4"
+            ],
+            "install_type": "git-clone",
+            "description": "INT4 weight-only quantization (W4A16) via torchao. Activations remain FP16 — zero quality loss. Full LoRA: standard + LoKr, multi-LoRA stack (≤8), SHA256 JSON cache (<1s hit), GPU pre-hook bake-in. Auto-detects device on startup and installs correct torchao build (Intel XPU / NVIDIA CUDA / AMD ROCm). Verified: Krea2 Turbo, Flux2 Klein 9B, Z-Image, Boogu, Qwen-Image. Includes model analysis CLI."
+        },
+        {
+            "author": "ku1x",
+            "title": "ComfyUI-MaskCanvasEditor",
+            "reference": "https://github.com/ku1x/ComfyUI-MaskCanvasEditor",
+            "files": [
+                "https://github.com/ku1x/ComfyUI-MaskCanvasEditor"
+            ],
+            "install_type": "git-clone",
+            "description": "Mask Canvas Editor is a ComfyUI custom node that provides an interactive visual editor for positioning a background image behind a mask region."
+        },
+        {
+            "author": "zeus-onl",
+            "title": "comfyUI-JigSaw-Hi-Res",
+            "reference": "https://github.com/zeus-onl/comfyUI-JigSaw-Hi-Res",
+            "files": [
+                "https://github.com/zeus-onl/comfyUI-JigSaw-Hi-Res"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI node extending Flux/Krea2 model image generation beyond native resolution using YaRN and NTK-aware frequency scaling to prevent repeating-pattern artifacts. (Description by CC)"
+        },
+        {
+            "author": "tttamaki",
+            "title": "ComfyUI-RandomSwitch",
+            "reference": "https://github.com/tttamaki/ComfyUI-RandomSwitch",
+            "files": [
+                "https://github.com/tttamaki/ComfyUI-RandomSwitch"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI custom node that randomly selects one input from multiple inputs of the same type."
+        },
+        {
+            "author": "tttamaki",
+            "title": "ComfyUI-StringListConcat",
+            "reference": "https://github.com/tttamaki/ComfyUI-StringListConcat",
+            "files": [
+                "https://github.com/tttamaki/ComfyUI-StringListConcat"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI custom node that concatenates 2-32 string inputs into one with optional delimiters. (Description by CC)"
+        },
+        {
+            "author": "adbrasi",
+            "title": "facetaggg",
+            "reference": "https://github.com/adbrasi/facetaggg",
+            "files": [
+                "https://github.com/adbrasi/facetaggg"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI custom node using YOLO to detect and crop objects in images or video frames with temporal smoothing, masking, and preview output. (Description by CC)"
+        },
+        {
+            "author": "akurate",
+            "title": "ComfyUI Schematic",
+            "reference": "https://github.com/jeremieLouvaert/ComfyUI-Schematic",
+            "files": [
+                "https://github.com/jeremieLouvaert/ComfyUI-Schematic"
+            ],
+            "install_type": "git-clone",
+            "description": "Schematic/technical annotation overlay generator — detection circles, tangent chains, crosshair frames, and pixelation zones over any image"
+        },
+        {
+            "author": "unitas81",
+            "title": "ComfyUI-FilterLoRATriggers",
+            "reference": "https://github.com/Unitas81/ComfyUI-FilterLoRATriggers",
+            "files": [
+                "https://github.com/Unitas81/ComfyUI-FilterLoRATriggers"
+            ],
+            "install_type": "git-clone",
+            "description": "Filter LoRA trigger pollution + RegionalLayoutMasks (!!/!!!/TB/TMB) for Attention Couple workflows"
+        },
+        {
+            "author": "artfat-creator",
+            "title": "Artfat Face Consistency",
+            "reference": "https://github.com/artfat-creator/ComfyUI-Artfat-FaceConsistency",
+            "files": [
+                "https://github.com/artfat-creator/ComfyUI-Artfat-FaceConsistency"
+            ],
+            "install_type": "git-clone",
+            "description": "Face-identity consistency scoring for ComfyUI (cv2 YuNet+SFace, CPU). Inline pass/fail sort + batch contact-sheet."
+        },
+        {
+            "author": "drksun81",
+            "title": "ComfyUI-FilterLoRATriggers",
+            "reference": "https://github.com/DrkSun81/ComfyUI-FilterLoRATriggers",
+            "files": [
+                "https://github.com/DrkSun81/ComfyUI-FilterLoRATriggers"
+            ],
+            "install_type": "git-clone",
+            "description": "Filter LoRA trigger pollution + RegionalLayoutMasks (!!/!!!/TB/TMB) for Attention Couple workflows"
+        },
+        {
+            "author": "palealloy2999-prog",
+            "title": "ComfyUI-AnySwitchImage",
+            "reference": "https://github.com/palealloy2999-prog/ComfyUI-AnySwitchImage",
+            "files": [
+                "https://github.com/palealloy2999-prog/ComfyUI-AnySwitchImage"
+            ],
+            "install_type": "git-clone",
+            "description": "Image-only switch for ComfyUI that checks connected inputs from top to bottom and outputs the first available image. (Description by CC)"
+        },
+        {
+            "author": "realrebelai",
+            "title": "Rebels Krea2 Outpaint",
+            "reference": "https://github.com/RealRebelAI/ComfyUI-Rebels-Krea2-Outpaint",
+            "files": [
+                "https://github.com/RealRebelAI/ComfyUI-Rebels-Krea2-Outpaint"
+            ],
+            "install_type": "git-clone",
+            "description": "Registered outpainting nodes for the yijunwang2/krea2-outpaint LoRA on Krea 2 Turbo. Places the source reference into the target latent grid at a bbox (RoPE frame i+1) with isolated-ref KV cache, then restores exact pixels with a feathered seam. Reference-attention machinery adapted from ostris/ComfyUI-Krea2-Ostris-Edit (MIT); placement geometry from the outpaint release (Apache-2.0)."
+        },
+        {
+            "author": "lobo",
+            "title": "ComfyUI-Krea2BlockSwap",
+            "reference": "https://github.com/olob0/ComfyUI-Krea2BlockSwap",
+            "files": [
+                "https://github.com/olob0/ComfyUI-Krea2BlockSwap"
+            ],
+            "install_type": "git-clone",
+            "description": "Dynamic block swap for Krea 2. Offloads transformer blocks to RAM to run on low-VRAM GPUs without quality loss."
+        },
+        {
+            "author": "speedyrulz",
+            "title": "comfyui-resolution-selector",
+            "reference": "https://github.com/speedyrulz/comfyui-resolution-selector",
+            "files": [
+                "https://github.com/speedyrulz/comfyui-resolution-selector"
+            ],
+            "install_type": "git-clone",
+            "description": "Pick a megapixel budget and aspect ratio; get the closest usable resolution."
+        },
+        {
             "author": "csonxx",
             "title": "comfyui_region_uv_metadata",
             "reference": "https://github.com/csonxx/comfyui_region_uv_metadata",
@@ -5211,14 +5374,14 @@
             "description": "Enhanced image save node with PNG/JPEG/WebP/TIFF/BMP support, quality control, GPS EXIF metadata, and date macro expansion in filename prefix."
         },
         {
-            "author": "covertbannana",
-            "title": "CivitAI ImagePlus",
+            "author": "CovertBannana",
+            "title": "ComfyUI_CivitAI_ImagePlus",
             "reference": "https://github.com/CovertBannana/ComfyUI_CivitAI_ImagePlus",
             "files": [
                 "https://github.com/CovertBannana/ComfyUI_CivitAI_ImagePlus"
             ],
             "install_type": "git-clone",
-            "description": "Browse CivitAI images in ComfyUI, preview protected images, edit prompts, and pass selected images into img2img workflows."
+            "description": "CivitAI gallery browser for ComfyUI with protected image preview and prompt editor."
         },
         {
             "author": "oratorian",
