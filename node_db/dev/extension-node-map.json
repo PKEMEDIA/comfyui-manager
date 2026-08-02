@@ -8340,6 +8340,7 @@
             "TextEncodeBooguEdit",
             "TextEncodeHunyuanVideo_ImageToVideo",
             "TextEncodeJoyImageEdit",
+            "TextEncodeMageFlowEdit",
             "TextEncodeQwenImageEdit",
             "TextEncodeQwenImageEditPlus",
             "TextEncodeZImageOmni",
@@ -10753,9 +10754,11 @@
             "BailianAPI",
             "BailianAPIPoll",
             "BailianAPISubmit",
+            "HappyHorseVideoGeneration",
             "MaletteJSONExtractor",
             "MaletteJSONModifier",
-            "MaletteVirtualTryOn"
+            "MaletteVirtualTryOn",
+            "UnifyVideoGeneration"
         ],
         {
             "title_aux": "ComfyUI-AliCloud-Bailian [WIP]"
@@ -12181,6 +12184,8 @@
     "https://github.com/maoper11/comfyui_inteliweb_nodes": [
         [
             "InteliwebInputSwitch",
+            "InteliwebLabel",
+            "InteliwebLoraStack",
             "InteliwebPromptList",
             "InteliwebPurgeVRAM",
             "InteliwebReplaceTextMulti",
@@ -13287,7 +13292,8 @@
     "https://github.com/pickles/ComfyUI-PyPromptGenerator": [
         [
             "PyPromptFileGeneratorNode",
-            "PyPromptGeneratorNode"
+            "PyPromptGeneratorNode",
+            "ResolutionInputNode"
         ],
         {
             "title_aux": "PyPromptGenerator [UNSAFE]"
@@ -15962,15 +15968,22 @@
             "EnsureMaskBatch",
             "HoneyBannerDisplay",
             "HoneyBatchAspectRatio",
+            "HoneyColorChooser",
+            "HoneyColorSwap",
             "HoneyEnsureDirectory",
             "HoneyFilenameContainsExists",
             "HoneyFilmStockSelector",
             "HoneyFilterImageListByBoolean",
             "HoneyGetListRange",
             "HoneyLoadImageListFromDirectory",
+            "HoneyLoadImagesFromPathsList",
             "HoneyLoraLoader",
             "HoneyLoraPathFromString",
             "HoneyLoraStackTags",
+            "HoneyPaletteRemap",
+            "HoneyPrefixEachLine",
+            "HoneyRemoveCornerBackground",
+            "HoneySaveImageIf",
             "HoneyShowBanner",
             "HoneySpectralFilmSelector",
             "HoneyTextBanner",
