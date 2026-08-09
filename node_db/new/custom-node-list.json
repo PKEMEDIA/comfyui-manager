@@ -1,6 +1,77 @@
 {
     "custom_nodes": [
         {
+            "author": "stompy001",
+            "title": "ComfyUI-Quick-Merge",
+            "reference": "https://github.com/stompy001/ComfyUI-Quick-Merge",
+            "files": [
+                "https://github.com/stompy001/ComfyUI-Quick-Merge"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI node for image layering, blending, compositing, and batch processing."
+        },
+        {
+            "author": "uron83",
+            "title": "ComfyUI-Qwen-FrameKit",
+            "id": "qwen-framekit",
+            "reference": "https://github.com/uron83/ComfyUI-Qwen-FrameKit",
+            "files": [
+                "https://github.com/uron83/ComfyUI-Qwen-FrameKit"
+            ],
+            "install_type": "git-clone",
+            "description": "Visual camera-angle LoRA control and smart aspect-ratio resizing for Qwen image editing in ComfyUI."
+        },
+        {
+            "author": "DumiFlex",
+            "title": "Wildcard Pipeline",
+            "reference": "https://github.com/DumiFlex/ComfyUI-Wildcard-Pipeline",
+            "files": [
+                "https://github.com/DumiFlex/ComfyUI-Wildcard-Pipeline"
+            ],
+            "install_type": "git-clone",
+            "description": "Modular procedural prompt generation — wildcards, fixed values, combines, derivations and constraints resolved in a context pipeline, with a manager UI for a reusable module library."
+        },
+        {
+            "author": "MengYe-Z",
+            "title": "ComfyUI MultiPoint White Balance",
+            "reference": "https://github.com/MengYe-Z/ComfyUI-MultiPointWhiteBalance",
+            "files": [
+                "https://github.com/MengYe-Z/ComfyUI-MultiPointWhiteBalance"
+            ],
+            "install_type": "git-clone",
+            "description": "Multi-point white balance and exposure correction for e-commerce product images."
+        },
+        {
+            "author": "solidlime",
+            "title": "Multi Bool Panel",
+            "reference": "https://github.com/solidlime/ComfyUI-MultiBoolPanel",
+            "files": [
+                "https://github.com/solidlime/ComfyUI-MultiBoolPanel"
+            ],
+            "install_type": "git-clone",
+            "description": "Multiple named boolean toggle switches in a single node, each with an independent BOOLEAN output. Adjustable toggle count (1-20) and labels; batch-apply to other nodes by name filter (widgets/bypass/mute)."
+        },
+        {
+            "author": "klimentiy23",
+            "title": "ComfyUI-SCAIL-Auto-Prompt-Builder",
+            "reference": "https://github.com/klimentiy23/scail-auto-prompt-builder",
+            "files": [
+                "https://github.com/klimentiy23/scail-auto-prompt-builder"
+            ],
+            "install_type": "git-clone",
+            "description": "Local vision-language auto prompt builder for SCAIL/SCAIL-2 character and object replacement workflows. Generates a prompt from a reference image and sampled source-video frames, using local VLM models only."
+        },
+        {
+            "author": "hadesybil-hub",
+            "title": "ComfyUI_EasySize",
+            "reference": "https://github.com/hadesybil-hub/ComfyUI_EasySize",
+            "files": [
+                "https://github.com/hadesybil-hub/ComfyUI_EasySize"
+            ],
+            "install_type": "git-clone",
+            "description": "A lightweight ComfyUI node for size selection and size routing with Preset, Image and Custom modes."
+        },
+        {
             "author": "RabbitThatIsPink",
             "title": "Frog Node Pack",
             "reference": "https://github.com/RabbitThatIsPink/FrogNodePack",
@@ -94,7 +165,7 @@
                 "https://github.com/Zoltar358-ComfyUI/ComfyUI-Universal-Model-Loader"
             ],
             "install_type": "git-clone",
-            "description": "Universal ComfyUI model loader for checkpoints, diffusers, diffusion models, UNet, GGUF, CLIP and VAE with a dynamic polished UI."
+            "description": "Universal ComfyUI model loader for checkpoints, diffusers, diffusion models, UNet, GGUF, dual CLIP outputs and dual VAE outputs with dynamic UI, Registry Node Pack Info previews, and auto CLIP type detection for latest model families."
         },
         {
             "author": "kkukshtel",
@@ -7655,8 +7726,7 @@
                 "https://github.com/DemonGatanjieu/Anomalous_Model_Browser"
             ],
             "install_type": "git-clone",
-            "description": "Auto-injects model hashes and auto-fixes missing nodes or renamed models paths when sharing workflows.",
-            "nodename_pattern": ".*"
+            "description": "UI-only extension for model library management and workflow authoring. Features visual model/LoRA insertion, prompt notebooks, gallery, and safe file management. Includes 'Model Doctor' to auto-restore broken model paths using metadata previously injected by this plugin."
         },
         {
             "author": "Pikselkroken",

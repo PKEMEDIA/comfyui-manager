@@ -311,26 +311,6 @@
             "description": "Prompt library node for ComfyUI. (Description by CC)"
         },
         {
-            "author": "fedetanco22",
-            "title": "comfyui-notebooklm-main",
-            "reference": "https://github.com/fedetanco22/comfyui-notebooklm-main",
-            "files": [
-                "https://github.com/fedetanco22/comfyui-notebooklm-main"
-            ],
-            "install_type": "git-clone",
-            "description": "Generates scripts from notebooks using NotebookLM. (Description by CC)"
-        },
-        {
-            "author": "fedetanco22",
-            "title": "comfyui_morpheus_NanoBanana_Mask-main",
-            "reference": "https://github.com/fedetanco22/comfyui_morpheus_NanoBanana_Mask-main",
-            "files": [
-                "https://github.com/fedetanco22/comfyui_morpheus_NanoBanana_Mask-main"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI nodes for batch image cropping, editing prompts, and mask generation. (Description by CC)"
-        },
-        {
             "author": "FloranceYeh",
             "title": "ComfyUI_F_nodes",
             "reference": "https://github.com/FloranceYeh/ComfyUI_F_nodes",
@@ -4416,16 +4396,6 @@
             "description": "A suite of ComfyUI nodes for generating parameter sweep video matrices with labeled grids. Create comprehensive visual comparisons of how different parameter combinations affect your video generation results.\nNOTE: The files in the repo are not organized."
         },
         {
-            "author": "clubmate",
-            "title": "comfyui-boll-nodes",
-            "reference": "https://github.com/clubmate/comfyui-boll-nodes",
-            "files": [
-                "https://github.com/clubmate/comfyui-boll-nodes"
-            ],
-            "install_type": "git-clone",
-            "description": "NODES: Get Last Image, Remove Last Image, WAN Config"
-        },
-        {
             "author": "vunguyen-oss",
             "title": "ComfyUI-ccsrv2 [WIP]",
             "reference": "https://github.com/vunguyen-oss/ComfyUI-ccsrv2",
@@ -5095,16 +5065,6 @@
             ],
             "install_type": "git-clone",
             "description": "A custom node for ComfyUI that provides a simple and direct way to use OpenAI-compatible Text-to-Speech (TTS) services."
-        },
-        {
-            "author": "Jairodaniel-17",
-            "title": "ComfyUI-traductor-offline",
-            "reference": "https://github.com/Jairodaniel-17/ComfyUI-traductor-offline",
-            "files": [
-                "https://github.com/Jairodaniel-17/ComfyUI-traductor-offline"
-            ],
-            "install_type": "git-clone",
-            "description": "NODES: Traductor: CLIP Texto (EN↔ES), Traductor: Prompt Texto (EN↔ES)"
         },
         {
             "author": "aesethtics",
@@ -8409,16 +8369,6 @@
             ],
             "install_type": "git-clone",
             "description": "A custom nodes for ComfyUI to Load audio in Base64 format and Send Audio to Websocket in Base64 Format for creating API of Audio related AI\nNOTE: The files in the repo are not organized."
-        },
-        {
-            "author": "rhinoflavored",
-            "title": "comfyui_QT",
-            "reference": "https://github.com/rhinoflavored/comfyui_QT",
-            "files": [
-                "https://github.com/rhinoflavored/comfyui_QT"
-            ],
-            "install_type": "git-clone",
-            "description": "bunch of image manipulation nodes....\nNOTE: The files in the repo are not organized."
         },
         {
             "author": "ricklove",
