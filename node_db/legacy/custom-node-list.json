@@ -1,6 +1,116 @@
 {
     "custom_nodes": [
         {
+            "author": "xiaogui8dangjia",
+            "title": "Comfyui-imagetoSTL [REMOVED]",
+            "reference": "https://github.com/xiaogui8dangjia/Comfyui-imagetoSTL",
+            "files": [
+                "https://github.com/xiaogui8dangjia/Comfyui-imagetoSTL"
+            ],
+            "install_type": "git-clone",
+            "description": "comfyui_imagetostl is a simple node for ComfyUI that converts grayscale images to STL."
+        },
+        {
+            "author": "g7b2",
+            "title": "ComfyUI-MultiCheckpoint-Tester [REMOVED]",
+            "reference": "https://github.com/g7b2/ComfyUI-MultiCheckpoint-Tester",
+            "files": [
+                "https://github.com/g7b2/ComfyUI-MultiCheckpoint-Tester"
+            ],
+            "install_type": "git-clone",
+            "description": "A powerful ComfyUI custom node for model comparison testing supporting 1-5 checkpoint models with automatic VRAM management and comparison image generation. (Description by CC)"
+        },
+        {
+            "author": "g7b2",
+            "title": "ComfyUI-Artist-Tester [REMOVED]",
+            "reference": "https://github.com/g7b2/ComfyUI-Artist-Tester",
+            "files": [
+                "https://github.com/g7b2/ComfyUI-Artist-Tester"
+            ],
+            "install_type": "git-clone",
+            "description": "A dedicated suite of custom nodes for batch testing artists, styles, and prompts in ComfyUI, solving the caching problem with anti-cache logic and dynamic filename generation."
+        },
+        {
+            "author": "randomname124290358349",
+            "title": "comfyui-singlepose-clone [REMOVED]",
+            "reference": "https://github.com/randomname124290358349/comfyui-singlepose-clone",
+            "files": [
+                "https://github.com/randomname124290358349/comfyui-singlepose-clone"
+            ],
+            "install_type": "git-clone",
+            "description": "Standalone bundle for the single-pose character clone workflow built on Qwen-Image-Edit."
+        },
+        {
+            "author": "GeneralShan",
+            "title": "FLUX.2 SDNQ [REMOVED]",
+            "reference": "https://github.com/GeneralShan/comfyui-flux2-sdnq",
+            "files": [
+                "https://github.com/GeneralShan/comfyui-flux2-sdnq"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI extension for FLUX.2 with SDNQ quantization."
+        },
+        {
+            "author": "GeneralShan",
+            "title": "comfyui-zimage-sdnq [REMOVED]",
+            "reference": "https://github.com/GeneralShan/comfyui-zimage-sdnq",
+            "files": [
+                "https://github.com/GeneralShan/comfyui-zimage-sdnq"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom ComfyUI nodes for running Z-Image Turbo with SDNQ quantization (q8/q4). Supports text-to-image, image-to-image, inpaint, ControlNet, and LoRA."
+        },
+        {
+            "author": "aarnoatchi",
+            "title": "comfyui-vto [REMOVED]",
+            "reference": "https://github.com/aarnoatchi/comfyui-vto",
+            "files": [
+                "https://github.com/aarnoatchi/comfyui-vto"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI custom node for photorealistic virtual try-on generation using Google's Gemini API with flexible image inputs and customizable prompts. (Description by CC)"
+        },
+        {
+            "author": "z604159435g",
+            "title": "comfyui_random_prompt_plugin [WIP] [REMOVED]",
+            "reference": "https://github.com/z604159435g/comfyui_random_prompt_plugin",
+            "files": [
+                "https://github.com/z604159435g/comfyui_random_prompt_plugin"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI natural language prompt plugin specifically designed for generating realistic photos of Caucasian women. Completely restructured to produce smooth natural language paragraphs instead of CLIP-style formatting.\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "ftechmax",
+            "title": "ComfyUI-NovaKit-Pack [REMOVED]",
+            "reference": "https://github.com/ftechmax/ComfyUI-NovaKit-Pack",
+            "files": [
+                "https://github.com/ftechmax/ComfyUI-NovaKit-Pack"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: Count Tokens"
+        },
+        {
+            "author": "yichengup",
+            "title": "ComfyUI_Yc_JanusPro [REMOVED]",
+            "reference": "https://github.com/yichengup/ComfyUI_Yc_JanusPro",
+            "files": [
+                "https://github.com/yichengup/ComfyUI_Yc_JanusPro"
+            ],
+            "install_type": "git-clone",
+            "description": "About DeepSeek Chat API\nGo here to register and get the api-key [a/https://platform.deepseek.com/](https://platform.deepseek.com/) Then enter api_key in config.json"
+        },
+        {
+            "author": "fxd0h",
+            "title": "ComfyUI-mflux-AnyModel [REMOVED]",
+            "reference": "https://github.com/fxd0h/ComfyUI-mflux-AnyModel",
+            "files": [
+                "https://github.com/fxd0h/ComfyUI-mflux-AnyModel"
+            ],
+            "install_type": "git-clone",
+            "description": "Run any mflux/MLX model in ComfyUI on Apple Silicon, with a capability registry that forwards only the parameters each model accepts."
+        },
+        {
             "author": "wxytjustb",
             "title": "ComfyUI-CustomNodes [NAME CONFLICT] [REMOVED]",
             "reference": "https://github.com/wxytjustb/ComfyUI-CustomNodes",

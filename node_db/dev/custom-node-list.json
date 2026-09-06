@@ -4817,16 +4817,6 @@
             "description": "Collect Vram ram and Time\nNOTE: The files in the repo are not organized."
         },
         {
-            "author": "z604159435g",
-            "title": "comfyui_random_prompt_plugin [WIP]",
-            "reference": "https://github.com/z604159435g/comfyui_random_prompt_plugin",
-            "files": [
-                "https://github.com/z604159435g/comfyui_random_prompt_plugin"
-            ],
-            "install_type": "git-clone",
-            "description": "A ComfyUI natural language prompt plugin specifically designed for generating realistic photos of Caucasian women. Completely restructured to produce smooth natural language paragraphs instead of CLIP-style formatting.\nNOTE: The files in the repo are not organized."
-        },
-        {
             "author": "edisonchan",
             "title": "ComfyUI-Sysinfo",
             "reference": "https://github.com/edisonchan/ComfyUI-Sysinfo",
@@ -7649,16 +7639,6 @@
             ],
             "install_type": "git-clone",
             "description": "NODES: GagaGetFileList, GagaGetStringListSize, GagaSplitStringToList, GagaTest, GagaBatchStringReplace"
-        },
-        {
-            "author": "ftechmax",
-            "title": "ComfyUI-NovaKit-Pack",
-            "reference": "https://github.com/ftechmax/ComfyUI-NovaKit-Pack",
-            "files": [
-                "https://github.com/ftechmax/ComfyUI-NovaKit-Pack"
-            ],
-            "install_type": "git-clone",
-            "description": "NODES: Count Tokens"
         },
         {
             "author": "jtydhr88",
