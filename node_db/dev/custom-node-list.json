@@ -4477,16 +4477,6 @@
             "description": "This repository contains custom nodes designed for the ComfyUI framework, focusing on simplification improvements. These nodes aim to make tasks easier and simple"
         },
         {
-            "author": "SushantSingh-23-01",
-            "title": "comfyui_flowrider_nodes [UNSAFE]",
-            "reference": "https://github.com/SushantSingh-23-01/comfyui_flowrider_nodes",
-            "files": [
-                "https://github.com/SushantSingh-23-01/comfyui_flowrider_nodes"
-            ],
-            "install_type": "git-clone",
-            "description": "Collection of nodes performing random utility functions like: JPG Saver - Save images in jpg format. Resolution Selector - Selects from standard resolutions with aspect ratios.[w/This extension has a vulnerability that allows arbitrary access to local files from remote.]"
-        },
-        {
             "author": "YokoYokoTEC",
             "title": "comfyui-sequential-prompt-file [UNSAFE]",
             "reference": "https://github.com/YokoYokoTEC/comfyui-sequential-prompt-file",

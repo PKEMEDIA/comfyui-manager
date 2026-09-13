@@ -1,6 +1,149 @@
 {
     "custom_nodes": [
         {
+            "author": "mariobilly",
+            "title": "MSCH Nodes",
+            "reference": "https://github.com/mariobilly/msch-comfyui-nodes",
+            "files": [
+                "https://github.com/mariobilly/msch-comfyui-nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "One install for the full MSCH collection: 35 video effects, slideshow, typography, lyric-sync and MiniMax H3 nodes, plus theme and editor bridge. Replaces the separate msch-* packs."
+        },
+        {
+            "author": "michikora",
+            "title": "Autocomplete++",
+            "reference": "https://github.com/michikora/ComfyUI-Autocomplete-Plus-Plus",
+            "files": [
+                "https://github.com/michikora/ComfyUI-Autocomplete-Plus-Plus"
+            ],
+            "install_type": "git-clone",
+            "description": "Tag autocomplete, prompt formatting, and dynamic prompt expansion extension for ComfyUI."
+        },
+        {
+            "author": "huchukato",
+            "title": "Perfect Video Resolution",
+            "id": "perfect-video-resolution",
+            "reference": "https://github.com/huchukato/ComfyUI-PerfectVideoResolution",
+            "files": [
+                "https://github.com/huchukato/ComfyUI-PerfectVideoResolution"
+            ],
+            "install_type": "git-clone",
+            "description": "Automatically calculates and applies the optimal resolution for Wan 2.2, MiniMax H3, and LTX video generation models based on aspect ratio and model requirements."
+        },
+        {
+            "author": "modelscope",
+            "title": "DiffSynth-ComfyUI",
+            "reference": "https://github.com/modelscope/DiffSynth-ComfyUI",
+            "files": [
+                "https://github.com/modelscope/DiffSynth-ComfyUI"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI custom node plugin for DiffSynth-Studio, enabling low-VRAM inference through configurable VRAM management, NF4 quantization, and model offloading. Supports image, video, and audio generation and editing across 20+ diffusion models."
+        },
+        {
+            "author": "loyal1365s",
+            "title": "ComfyUI Smooth Organizer",
+            "reference": "https://github.com/loyal1365s/comfyui-smooth-organizer",
+            "files": [
+                "https://github.com/loyal1365s/comfyui-smooth-organizer"
+            ],
+            "install_type": "git-clone",
+            "description": "A professional extension to automatically arrange nodes with Grid and Flow layouts, fully respecting groups."
+        },
+        {
+            "author": "qjxmgs",
+            "title": "ComfyUI-Prompt-Weaver",
+            "id": "comfyui-prompt-weaver",
+            "reference": "https://github.com/qjxmgs/ComfyUI-Prompt-Weaver",
+            "files": [
+                "https://github.com/qjxmgs/ComfyUI-Prompt-Weaver"
+            ],
+            "install_type": "git-clone",
+            "description": "Prompt management extension providing a prompt toggle grid, global archives, tag autocomplete, localization, and a desktop workflow bridge for ComfyUI."
+        },
+        {
+            "author": "Rimor-dev",
+            "title": "ComfyUI-CFG-Sculptor",
+            "reference": "https://github.com/Rimor-dev/ComfyUI-CFG-Sculptor",
+            "files": [
+                "https://github.com/Rimor-dev/ComfyUI-CFG-Sculptor"
+            ],
+            "install_type": "git-clone",
+            "description": "Dynamic CFG sculpting with envelopes, waveforms, hysteresis, and snapshots"
+        },
+        {
+            "author": "yuyuki",
+            "title": "MiniMax H3 Novel Pipeline",
+            "id": "comfyui-minimax_h3_novel_pipeline",
+            "reference": "https://github.com/yuyuki/ComfyUI-Minimax_H3_Novel_Pipeline",
+            "files": [
+                "https://github.com/yuyuki/ComfyUI-Minimax_H3_Novel_Pipeline"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI nodes that turn novel chapters into continuity-aware MiniMax H3 prompts using an LM Studio OpenAI-compatible server."
+        },
+        {
+            "author": "inspectagadget",
+            "title": "Character Architect",
+            "reference": "https://github.com/InspectaGadget/ComfyUI-CharacterArchitect",
+            "files": [
+                "https://github.com/InspectaGadget/ComfyUI-CharacterArchitect"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI character prompt builder with high ethnicity adherence for Krea 2, conflict-aware randomization, and Identity Forge compatibility."
+        },
+        {
+            "author": "ComfyUI Palette Toolkit contributors",
+            "title": "comfyui-palette-toolkit",
+            "reference": "https://github.com/CrimsonEarth/ComfyUI-Palette-Toolkit",
+            "files": [
+                "https://github.com/CrimsonEarth/ComfyUI-Palette-Toolkit"
+            ],
+            "install_type": "git-clone",
+            "description": "Model-independent hex palette construction and perceptual image harmonization for ComfyUI."
+        },
+        {
+            "author": "ZeronoFreya",
+            "title": "comfyui-friendly-string",
+            "reference": "https://github.com/ZeronoFreya/ComfyUI-Friendly-String",
+            "files": [
+                "https://github.com/ZeronoFreya/ComfyUI-Friendly-String"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI plugin providing named-field string formatting nodes that support template embedding, allowing flexible field binding by name rather than input order. (Description by CC)"
+        },
+        {
+            "author": "nobutakakuroki",
+            "title": "ComfyUI-Wavelet-2D",
+            "reference": "https://github.com/NobutakaKuroki/comfyui-wavelet-2d",
+            "files": [
+                "https://github.com/NobutakaKuroki/comfyui-wavelet-2d"
+            ],
+            "install_type": "git-clone",
+            "description": "2D Discrete Wavelet Transform (DWT) nodes for ComfyUI. Requires comfyui-signed-image (install separately)."
+        },
+        {
+            "author": "palealloy",
+            "title": "ComfyUI-DynamicPipe",
+            "reference": "https://github.com/palealloy2999-prog/ComfyUI-DynamicPipe",
+            "files": [
+                "https://github.com/palealloy2999-prog/ComfyUI-DynamicPipe"
+            ],
+            "install_type": "git-clone",
+            "description": "Pack and unpack any number of typed values through a dynamic pipe in ComfyUI."
+        },
+        {
+            "author": "local",
+            "title": "ComfyUI-Spectrum-Anima",
+            "reference": "https://github.com/Nif00/ComfyUI-Spectrum-Anima",
+            "files": [
+                "https://github.com/Nif00/ComfyUI-Spectrum-Anima"
+            ],
+            "install_type": "git-clone",
+            "description": "Spectrum spectral feature forecasting for native ComfyUI Anima models."
+        },
+        {
             "author": "ethanfel",
             "title": "Meta SAM-Audio",
             "id": "comfyui-meta-sam-audio",
